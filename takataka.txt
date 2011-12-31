@@ -1,0 +1,16 @@
+#  Takataka blank template package manifest
+
+__file__.html   slides.html.erb
+__file__.css    style.css.erb
+
+# styles
+
+takataka/projection.css
+takataka/print.css
+takataka/screen.css
+
+# javascript machinery
+
+takataka/jquery.js
+takataka/jquery.microsoft.js
+takataka/jquery.slideshow.js
