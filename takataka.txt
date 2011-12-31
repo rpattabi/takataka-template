@@ -14,3 +14,65 @@ takataka/screen.css
 takataka/jquery.js
 takataka/jquery.microsoft.js
 takataka/jquery.slideshow.js
+
+# SintaxHighlighter machinery
+
+highlighter/shCore.js
+highlighter/shAutoloader.js
+
+highlighter/shBrushAppleScript.js
+highlighter/shBrushAS3.js
+highlighter/shBrushBash.js
+highlighter/shBrushColdFusion.js
+highlighter/shBrushCpp.js
+highlighter/shBrushCSharp.js
+highlighter/shBrushCss.js
+highlighter/shBrushDelphi.js
+highlighter/shBrushDiff.js
+highlighter/shBrushErlang.js
+highlighter/shBrushGroovy.js
+highlighter/shBrushJavaFX.js
+highlighter/shBrushJava.js
+highlighter/shBrushJScript.js
+highlighter/shBrushPerl.js
+highlighter/shBrushPhp.js
+highlighter/shBrushPlain.js
+highlighter/shBrushPowerShell.js
+highlighter/shBrushPython.js
+highlighter/shBrushRuby.js
+highlighter/shBrushSass.js
+highlighter/shBrushScala.js
+highlighter/shBrushSql.js
+highlighter/shBrushVb.js
+highlighter/shBrushXml.js
+
+# SintaxHighlighter themes
+
+highlighter/shCore.css
+highlighter/shCoreDefault.css
+highlighter/shCoreDjango.css
+highlighter/shCoreEclipse.css
+highlighter/shCoreEmacs.css
+highlighter/shCoreFadeToGrey.css
+highlighter/shCoreMDUltra.css
+highlighter/shCoreMidnight.css
+highlighter/shCoreRDark.css
+highlighter/shThemeDefault.css
+highlighter/shThemeDjango.css
+highlighter/shThemeEclipse.css
+highlighter/shThemeEmacs.css
+highlighter/shThemeFadeToGrey.css
+highlighter/shThemeMDUltra.css
+highlighter/shThemeMidnight.css
+highlighter/shThemeRDark.css
+
+
+# template for pdf generation
+# -- use html-to-pdf tool (such as wkhtmltopdf, prince, etc) to generate pdf
+# -- from javascript free web page
+
+__file__.pdf.html slides.pdf.html.erb
+
+
+
+

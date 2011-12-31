@@ -9,7 +9,7 @@
 
 <!-- SyntaxHighlighter (sh) style sheet; goes first so we can override styles if needed -->
 <!-- todo: add theme-ing support -->
-<link rel="stylesheet" href="highlighter/shCoreRDark.css">
+<link rel="stylesheet" href="highlighter/shCoreDefault.css">
 
 <!-- Takataka style sheet links -->
 <link rel="stylesheet" href="<%= "#{@name}.css" %>" media="projection" id="styleProjection">
@@ -51,12 +51,11 @@
 <script src="highlighter/shBrushVb.js"></script>
 <script src="highlighter/shBrushXml.js"></script>
 
-<script type="text/javascript">
 
-$(document).ready( function() {
-  Slideshow.init();
-  SyntaxHighlighter.all();
-} );
+<script>
+  $(document).ready( function() {
+    Slideshow.init();
+  } );
 
   <%= content_for :js %>
 </script>
