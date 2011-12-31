@@ -14,7 +14,7 @@ html,
 /* Slides window */
 
 
-.slide {
+body {
 	overflow: hidden;
 	background-color: #000;
 	color: #fff;
@@ -30,31 +30,6 @@ html,
 	background: linear-gradient(top,  #4c4c4c 0%,#000000 0%,#595959 0%,#1c1c1c 100%,#111111 100%,#2b2b2b 100%,#2c2c2c 100%,#131313 100%); /* w3c */
 	filter: progid:dximagetransform.microsoft.gradient( startcolorstr='#4c4c4c', endcolorstr='#131313',gradienttype=0 ); /* ie6-9 */
 	
-}
-
-.slide body, p{
-	margin: 0;
-	padding: 0;
-}
-
-.slide {
-	font-family: Bevan;
-}
-
-.slide #td{
-	text-align: center;
-	vertical-align: middle;
-}
-.slide img{
-	-webkit-box-shadow: 0px 0px 4px #000;
-	-moz-box-shadow: 0px 0px 4px #000;
-	box-shadow: 0px 0px 4px #000;
-	background-color: #fff;
-}
-.slide body pre{
-	text-align: left;
-	font-family: Monaco, monospace;
-	padding: 0 40px;
 }
 
 #slide1 { display: block; }
