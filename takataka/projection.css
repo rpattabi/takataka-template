@@ -14,7 +14,7 @@ html,
 /* Slides window */
 
 
-.slide body{
+.slide {
 	overflow: hidden;
 	background-color: #000;
 	color: #fff;
@@ -37,7 +37,7 @@ html,
 	padding: 0;
 }
 
-.slide body{
+.slide {
 	font-family: Bevan;
 }
 
