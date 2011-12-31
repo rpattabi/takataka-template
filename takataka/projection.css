@@ -11,18 +11,22 @@
 html,
 body,
 
-.presentation {
+.slide {
    width: 824px;
    margin-left: auto;
    margin-right: auto;
    height: 395px;
  }
 
-.slide {
-  display: block;
+.presentation {
+   position: absolute;
+   top: 50%;
+   margin-top: -200px;
+   left: 0;
+   width: 100%;
 }
 
-#slide1 { display: block; }
+/* #slide1 { display: block; } */
 
 .notes  { display: none; } /* handout notes/note (use note? handout? notes? */
 
@@ -90,11 +94,3 @@ body,
 
 #currentSlide :link,
 #currentSlide :visited {  text-decoration: none; }
-
-#container {
-   position: absolute;
-   top: 50%;
-   margin-top: -200px;
-   left: 0;
-   width: 100%;
-}
