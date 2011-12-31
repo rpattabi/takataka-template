@@ -1,12 +1,17 @@
 @import url(takataka/projection.css); /* required to make the slide show run at all */
      
+html { background-image: url('background.jpg') }
 body { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; }
 
 a:link, a:visited { color: black; }
 
-.slide h1 { font-size: 50pt;  }
+.slide {
+  text-align: center;
+}
 
-.slide h1 {  text-align: center; }
+.slide h1 {
+  font-size: 80pt;
+}
 
 .slide h1.fullscreen { position: absolute;
                        top: 40%;
@@ -15,10 +20,13 @@ a:link, a:visited { color: black; }
 /* lets you create slides with no heading (because heading is hidden but gets included in toc) */
 .slide h1.hidden     { display: none; }
 
+.slide h2 {
+  font-size: 40pt; 
+}
 
-.slide h2 { font-size: 28pt;  }
-
-h3 { font-size: 25pt;  }
+h3 {
+  font-size: 25pt;
+}
 
 /* todo: add special formating for .cover slide
    lets you use h1(cover). for title/cover slide (a la S5 slide0) but more generic (not bound to 1st slide)
