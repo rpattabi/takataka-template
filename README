@@ -1,3 +1,8 @@
+Known Issues
+============
+
+* On opening the html in the browser, the content of the slides are mixed up. To correct this problem, just toggle between projection and screen views by using `t` key once.
+
 Thank you
 =========
 
