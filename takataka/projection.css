@@ -27,20 +27,6 @@ body,
 .notes  { display: none; } /* handout notes/note (use note? handout? notes? */
 
 
-/********* format layout block
- *
- *  .layout
- *    > #header
- *    > #footer
- *    > #controls      (holding navigation controls)
- *       > #navLinks
- *          > #toggle
- *          > #navList
- *            > #jumplist
- *    > #currentSlide  (e.g. 1/7)
- *
- */
-
 .layout { display: block; }
 
 #header {  position: fixed;
