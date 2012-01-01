@@ -3,6 +3,10 @@
 __file__.html   slides.html.erb
 __file__.css    style.css.erb
 
+# images
+
+images/background.jpg
+
 # styles
 
 takataka/projection.css

@@ -1,7 +1,7 @@
 @import url(takataka/projection.css); /* required to make the slide show run at all */
      
 html { 
-  background-image: url('background.jpg');
+  background-image: url('images/background.jpg');
   background-color: #ccc;
 }
 
@@ -77,15 +77,23 @@ ul { list-style-type: square; }
 .smallest,
 .tiny      { font-size: 82%; }
 
-
-
 pre { font-size: 16pt;  }
 
 .code { 
-        background-color: transparent;
-        padding: 5px;
-      }
-     
+  font-size: 250%;
+  left: 0;
+  right: 0;
+  top: -30%;
+
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 15px;
+
+  background-color: transparent;
+}
+
 .footnote a:first-of-type  { text-decoration: none; }
 
 
