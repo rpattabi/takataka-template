@@ -1,12 +1,30 @@
 Description
 ===========
 
-Takataka is template for slideshow (S9) to create Takahashi method style presentation slides.
+Takataka is a template for slideshow (S9), a web based presentation creation tool, to create Takahashi method style presentation slides.
+
+Takahashi method presents a good way to create simple slides. This developer loves S9's approach to presentation slide creation which is probably the fastest way to create tons of slides.
+
+This template attempts to bring S9 and Takahashi method together. Even if your presentation style does not follow Takahashi method, this template might help you to create simple yet powerful slides which have one or two sentences per slide.
+
+Features
+========
+
+* Souce code syntax highlighting
+* Decent slide design with a background image for the slides.
+* Of course, the style sheets are hackable if you prefer different background or any other improvements.
+* An example markdown file is provided to understand the basic usage.
+
+Status
+======
+
+Just satisfies a basic need for creating simple Takahashi method slides.
 
 Known Issues
 ============
 
 * On opening the html in the browser, the content of the slides are mixed up. To correct this problem, just toggle between projection and screen views by using `t` key once.
+* The developer of this template is complete novice when it comes to web technologies. In fact, this is the first attempt for him to deal with css. Any help to improve the template is greatly appreciated.
 
 Thank you
 =========
